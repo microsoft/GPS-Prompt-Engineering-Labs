@@ -1,3 +1,3 @@
-# Repository setup required :wave:
+# Prompt Engineering Labs
     
-Please visit the website URL :point_right: for this repository to complete the setup of this repository and configure access controls.
+This repo contains the source of the Prompt Engineering Labs, a set of hands-on labs for learning the basic principles of Prompt Engineering.

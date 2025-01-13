@@ -1,0 +1,16 @@
+/* CSS */
+.section {
+    display: none;
+  }
+  
+.section.active {
+    display: block;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}

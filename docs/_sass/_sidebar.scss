@@ -1,0 +1,58 @@
+#sidebar-index {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  padding: 1em;
+  background-color: rgba(239,239,239,0.5);
+  overflow: auto;
+  border-left: 1px solid #ccc;
+  transition: width 0.3s ease;
+  &.collapsed {
+    width: 0;
+    overflow: hidden;
+    ul {
+      visibility: hidden;
+      overflow: hidden;
+    }
+  }
+}
+
+#sidebar-index #sidebar-toggle {
+  position:absolute;
+  display: block;
+  margin-left: -1em;
+  margin-top: -1em;
+  padding: 0;
+  z-index: 1;
+}
+
+@mixin marker($name, $content){
+  li.#{$name}Marker {
+    list-style-type: none;
+    position: relative;
+
+    &::before {
+      content: $content;
+      position: absolute;
+      left: -1.2em;
+      top: 0em;
+    }
+  }
+
+}
+
+@include marker("uncollapsed", "-");
+@include marker("collapsed", "+");
+
+#sidebar-index a {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1200px) {
+  #sidebar-index {
+    display: none;
+  }
+}
