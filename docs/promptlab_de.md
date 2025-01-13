@@ -3,7 +3,7 @@ layout: custom
 title: "Hands-on-Lab (Deutsch)"
 subtitle: "HSG Alumni"
 authors: ["Florian Follonier & Juan Manuel Servera - Microsoft"]
-permalink: /prompt-engineering
+permalink: /prompt-engineering-de
 ---
 
 <div class="section" markdown="1">
