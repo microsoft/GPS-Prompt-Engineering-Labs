@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: "Advanced Prompt Engineering Lab"
+title: "Advanced Lab"
 subtitle: "HSG Alumni"
 authors: ["Juan Manuel Servera & Florian Follonier - Microsoft"]
 permalink: /prompt-engineering-advanced

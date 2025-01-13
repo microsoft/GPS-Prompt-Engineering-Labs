@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: "Hands-on-Lab zur Prompt-Entwicklung"
+title: "Hands-on-Lab (Deutsch)"
 subtitle: "HSG Alumni"
 authors: ["Florian Follonier & Juan Manuel Servera - Microsoft"]
 permalink: /prompt-engineering

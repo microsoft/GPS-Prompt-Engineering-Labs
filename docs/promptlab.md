@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: "Prompt Engineering Hands-on Lab"
+title: "Hands-on Lab"
 subtitle: "HSG Alumni"
 authors: ["Florian Follonier & Juan Manuel Servera - Microsoft"]
 permalink: /prompt-engineering
