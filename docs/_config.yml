@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Demos and labs
 # email: your-email@example.com
-description: "©️ 2024 Juan Manuel Servera (MIT License)"
+description: "©️ 2024 Microsoft (MIT License)"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jmservera
@@ -25,7 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 minima:
   social_links:
     - platform: github
-      user_url: "https://github.com/jmservera/miscdemos/issues/new"
+      user_url: "https://github.com/microsoft/GPS-Prompt-Engineering-Labs/issues/new"
       title: "💬 Feedback"
 
 # Build settings
@@ -33,7 +33,7 @@ markdown: kramdown
 theme: minima
 # plugins:
 #   - jekyll-feed
-  #  - jekyll-minifier
+#  - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
