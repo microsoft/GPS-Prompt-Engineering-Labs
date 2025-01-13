@@ -40,7 +40,7 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
-          cd web
+          cd docs
           bundle update sass
           bundle install
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" -d ../_site
