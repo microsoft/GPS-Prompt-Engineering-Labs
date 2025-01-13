@@ -8,6 +8,7 @@ permalink: /prompt-engineering
 
 <div class="section" markdown="1">
 Von Florian Follonier - Cloud Solution Architect Data & AI - Microsoft
+
 & Juan Manuel Servera - Cloud Solution Architect App Innovation - Microsoft
 
 ## Einleitung
@@ -148,6 +149,7 @@ Nun gehen wir zur zweiten Übung über, in der Sie Ihr eigenes Raumfahrt-Startup
 </div>
 
 </div>
+<div class="section" markdown="1">
 
 ## Übung 2 – Erstellen Sie Ihr eigenes Raumfahrt-Startup
 
@@ -259,7 +261,7 @@ Da wir nun umfangreiche Inhalte haben, können wir eine Missionserklärung für 
 Dieser Teil der Projektarbeit wird Missionserklärung genannt.
 
 Schreiben Sie eine Missionserklärung, die unsere Ziele und die Werte des Unternehmens widerspiegelt.
-´´´
+```
 
 </div>
 <div class="step" markdown="1">
@@ -368,7 +370,7 @@ Wenn Sie mehr erfahren möchten, finden Sie hier einige interessante Ressourcen,
 
 *Diese Definitionen sind spezifisch für diesen Leitfaden und die Nutzung von Microsofts KI-Begleiter Copilot. Die Definitionen können in anderen Kontexten oder mit verschiedenen KI-Systemen leicht variieren.*  
 </div>  
-
+</div>
 <div class="section" markdown="1">
 
 ## Einige weitere Beispiel-Prompts  

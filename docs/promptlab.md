@@ -8,6 +8,7 @@ permalink: /prompt-engineering
 
 <div class="section" markdown="1">
 By Florian Follonier - Cloud Solution Architect Data & AI - Microsoft
+
 & Juan Manuel Servera - Cloud Solution Architect App Innovation - Microsoft
 
 ## Introduction
