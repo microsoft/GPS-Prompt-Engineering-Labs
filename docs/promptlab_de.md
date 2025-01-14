@@ -207,7 +207,7 @@ Du kannst verschiedene Beispiele ausprobieren oder dem Prompt weitere Details hi
 Wenn Du einen Namen gefunden hast, der Dir gefällt, teile ihn Copilot mit, damit er ihn für später speichert:
 
 ```prompt
-Ich wähle [HIER IHREN BEVORZUGTEN NAMEN EINSETZEN], ich liebe ihn!
+Ich wähle [HIER DEINEN BEVORZUGTEN NAMEN EINSETZEN], ich liebe ihn!
 ```
 
 </div>
