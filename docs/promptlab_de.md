@@ -14,15 +14,15 @@ Von Florian Follonier - Cloud Solution Architect Data & AI - Microsoft
 ## Einleitung
 
 <div class="step" markdown="1">
-Willkommen im Hands-on-Lab zur Prompt-Entwicklung!
+Willkommen im Prompt-Engineering Hands-on-Lab!
 
-Wir haben diesen Leitfaden entwickelt, um Ihnen zu helfen, den KI-Begleiter von Microsoft, Copilot, auf praktische und ansprechende Weise zu verstehen und zu nutzen.
+Wir haben diesen Leitfaden entwickelt, um Dir zu helfen, den KI-Begleiter von Microsoft, Copilot, auf praktische und ansprechende Weise zu verstehen und zu nutzen.
   
-In diesem Lab werden wir die Welt der KI-gestützten Chats erkunden, verschiedene Arten von Prompts kennenlernen und lernen, wie man ein KI-Sprachmodell dazu bringt, den gewünschten Inhalt zu generieren. Die Übungen sind praxisorientiert, sodass Sie durch Ausprobieren und Anwenden Ihrer neu gewonnenen Fähigkeiten in Echtzeit lernen können.
+In diesem Lab werden wir die Welt der KI-gestützten Chats erkunden. Wir werden verschiedene Arten von Prompts anwenden und lernen, wie man ein KI-Sprachmodell dazu bringt, verschiedene Aufgaben auszuführen und gewünschten Inhalt zu generieren. Die Übungen sind praxisorientiert, sodass Sie durch Ausprobieren und Anwenden Deiner neu gewonnenen Fähigkeiten in Echtzeit lernen kannst.
   
-Unser Ziel ist es, Ihnen die Fähigkeiten und das Verständnis zu vermitteln, KI-Tools wie Copilot effektiv in Ihren eigenen Projekten einzusetzen, sei es für geschäftliche, bildungsbezogene oder persönliche Zwecke.  
+Unser Ziel ist es, Ihnen die Fähigkeiten und das Verständnis zu vermitteln, KI-Tools wie Copilot effektiv in Deinen eigenen Projekten einzusetzen, sei es für geschäftliche, bildungsbezogene oder persönliche Zwecke.  
 
-In der ersten Übung lernen Sie, wie Copilot funktioniert, indem Sie einfache Prompts verwenden. In der zweiten Übung nutzen Sie Copilot, um verschiedene Inhalte für ein fiktives Raumfahrt-Startup zu erstellen. Dazu gehört die Generierung eines Firmennamens, einer Missionserklärung, eines Logos und sogar eines Geschäftsplans, alles mit verschiedenen Prompt-Techniken.
+In der ersten Übung lernst Du, wie Copilot funktioniert, indem wir einfache Prompts verwenden. In der zweiten Übung nutzen wir Copilot, um verschiedene Inhalte für ein fiktives Raumfahrt-Startup zu erstellen. Dazu gehört die Generierung eines Firmennamens, die Beschreibung einer Vision, eines Logos und sogar eines Geschäftsplans. Dazu nutzen wir verschiedene Prompt-Techniken.
   
 Am Ende dieses Labs werden Sie ein umfassendes Verständnis dafür haben, wie man mit KI-Sprachmodellen interagiert und sie anleitet, und wie Sie sie als leistungsstarkes Werkzeug in Ihren eigenen Projekten einsetzen können.
   
