@@ -36,17 +36,17 @@ Nun lass uns mit der ersten Übung beginnen!
 ## Übung 1 – Warmup mit grundlegenden Prompts
 
 <div class="step" markdown="1">
-Für diese Übung nutzen wir Microsoft Copilot, Deinen täglichen KI-Begleiter, der einen KI-gestützten Chat bereitstellt, der bei einer Vielzahl von Aufgaben helfen kann. Du findest Copilot unter: <https://www.bing.com/chat> Wir beginnen mit einem Brainstorming und konfigurieren daher den Gesprächsstil auf „**Kreativer**“. Wie Linus Pauling einmal sagte:
+Für diese Übung nutzen wir Microsoft Copilot, Deinen täglichen KI-Begleiter, der einen KI-gestützten Chat bereitstellt, der bei einer Vielzahl von Aufgaben helfen kann. Du findest Copilot unter: <https://www.bing.com/chat> Wir beginnen mit einem Brainstorming und öffnen Copilot. Wie Linus Pauling einmal sagte:
 
 > Die beste Möglichkeit, eine gute Idee zu haben, ist, viele Ideen zu haben.
 
 ![Screenshot von Copilot im Web.](./img/Copilot%20in%20desktop.png)
 
-_Wenn du für diese Übung den mobilen Browser nutzt, siehst Du möglicherweise eine andere Benutzeroberfläche und Copilot fordert Dich möglicherweise zur Eingabe von Anmeldedaten auf. Du kannst Dein Microsoft-Konto verwenden, um Dich anzumelden und die Übung fortzusetzen._
+_Wenn Du für diese Übung den mobilen Browser nutzt, siehst Du möglicherweise eine andere Benutzeroberfläche und Copilot fordert Dich möglicherweise zur Eingabe von Anmeldedaten auf. Du kannst Dein Microsoft-Konto verwenden, um Dich anzumelden und die Übung fortzusetzen._
 
 > Während dieses Labs musst Du mehr als die grundlegenden 4 Fragen stellen, die Du mit einem nicht authentifizierten Konto stellen kannst, und mehr als die 10 Fragen, die Du stellen kannst, wenn Du nicht den Edge-Browser verwendest. Um das beste Erlebnis mit diesem Lab zu erzielen, befolge bitte diese Anweisungen:
 >
-> - Falls Du noch kein Konto hast, erstelle ein Microsoft-Konto; jedes Outlook-, Hotmail- oder Live-Konto funktioniert und es ist kostenlos, eines zu erstellen: [Microsoft-Konto \| Melden Sie sich an oder erstellen Sie Ihr Konto noch heute – Microsoft](https://account.microsoft.com/account/CreateAccount). Beachte, dass auch Arbeitskonten mit aktiviertem Microsoft 365 funktionieren.
+> - Falls Du noch kein Konto hast, erstelle ein Microsoft-Konto; jedes Outlook-, Hotmail- oder Live-Konto funktioniert und es ist kostenlos, eines zu erstellen: [Microsoft-Konto \| Melde Dich an oder erstelle Dein Konto noch heute – Microsoft](https://account.microsoft.com/account/CreateAccount). Beachte, dass auch Arbeitskonten mit aktiviertem Microsoft 365 funktionieren.
 > - Installiere den neuesten [Edge-Browser](https://www.microsoft.com/edge/download) und melde Dich mit Deinem Microsoft-Konto an.
 
 </div>
@@ -122,7 +122,7 @@ Text: Ich finde den Weltraum cool.
 Gefühl:
 ```
 
-Das LLM sollte Dir sagen, dass dies ein positives Sentiment darstellt, aber vielleicht möchtest Du diesen Wert in einer anderen Software verwenden, also kannst Du Copilot bitten, Dir die Antwort in einem strukturierten Format zu geben:
+Das Large Language Model LLM (KI Sprachmodell) sollte Dir sagen, dass dies ein positives Sentiment darstellt, aber vielleicht möchtest Du diesen Wert in einer anderen Software verwenden, also kannst Du Copilot bitten, Dir die Antwort in einem strukturierten Format zu geben:
 
 ```prompt
 Gib das Ergebnis im JSON-Format aus.
@@ -145,20 +145,20 @@ Hervorragende Arbeit beim Abschluss der ersten Übung!
 
 In dieser Übung hast Du einige grundlegende Prompting-Begriffe und -Techniken kennengelernt, wie Seed-Text-Prompts, bedingte Prompts, Multiple-Choice-Prompts und Zero-Shot-Prompts. Du hast auch ein Gefühl dafür bekommen, wie Copilot Inhalte basierend auf verschiedenen Arten von Prompts generiert und wie Du die KI anleiten kannst, den gewünschten Output zu erzeugen.
 
-> Denke daran, dass es keinen Ansatz gibt, der für alle passt, wenn es um den Einsatz von KI geht. Experimentiere ruhig mit verschiedenen Arten von Prompts, um zu sehen, welche Ergebnisse Du erhältst. Je mehr Du experimentierst, desto besser wirst Du verstehen, wie Du Copilot effektiv anleiten kannst. Wenn Du weitere Beispiele für jeden Typ von Prompt benötigst, sieh Dir den [Beispielleitfaden](#some-more-example-prompts) am Ende dieses Dokuments an.
+> Denke daran, dass es keinen Ansatz gibt, der für alle passt, wenn es um den Einsatz von KI geht. Experimentiere ruhig mit verschiedenen Arten von Prompts, um zu sehen, welche Ergebnisse Du erhältst. Je mehr Du experimentierst, desto besser wirst Du verstehen, wie Du Copilot effektiv anleiten kannst. Wenn Du weitere Beispiele für jeden Typ von Prompt benötigst, sieh Dir den [Beispielleitfaden](#einige-weitere-beispiel-prompts) am Ende dieses Dokuments an.
 
-Nun gehen wir zur zweiten Übung über, in der Du Dein eigenes Raumfahrt-Startup mit Copilot erstellen. Diese Übung ermöglicht es Dir, mit verschiedenen Prompting-Techniken zu experimentieren und eine Vielzahl von Inhalten für Dein Startup zu erstellen. Los geht's!
+Nun gehen wir zur zweiten Übung über, in der Du Dein eigenes Raumfahrt-Startup mit Copilot erstellst. Diese Übung ermöglicht es Dir, mit verschiedenen Prompting-Techniken zu experimentieren und eine Vielzahl von Inhalten für Dein Startup zu erstellen. Los geht's!
 
 </div>
 
 </div>
 <div class="section" markdown="1">
 
-## Übung 2 – Erstellen Sie Ihr eigenes Raumfahrt-Startup
+## Übung 2 – Erstelle Dein eigenes Raumfahrt-Startup
 
 <div class="step" markdown="1">
 
-> Nun beginnen wir mit der zweiten Übung. Denke daran, dass dies Deine Gelegenheit ist, kreativ zu werden und zu experimentieren. Probiere verschiedene Prompt-Techniken aus, passe Deine Anweisungen an und beobachte, wie Copilot reagiert. Denke daran: Es gibt kein Richtig oder Falsch – das Ziel ist es, zu lernen und Spaß zu haben!
+> Nun beginnen wir mit der zweiten Übung. Denke daran, dass dies Deine Gelegenheit ist, kreativ zu werden und zu experimentieren. Probiere verschiedene Prompt-Techniken aus, passe Deine Anweisungen an und beobachte, wie Copilot reagiert. Denke daran: Es gibt kein Richtig oder Falsch – das Ziel ist es, zu lernen und Spass zu haben!
 
 ### Copilot-Details
 
@@ -168,14 +168,14 @@ Vielleicht hast Du bereits bemerkt, dass Copilot Dir in einer Sitzung bis zu 30 
 
 Das bedeutet, dass Du nach 30 Iterationen von vorne beginnen musst. Bevor Du also mit der zweiten Übung beginnst, klicke auf die Schaltfläche **Neues Thema**, um eine neue Sitzung zu starten.
 
-In dieser Übung nutzt Du Copilot, um verschiedene Elemente Deines eigenen Raumfahrt-Startups zu generieren, wie z. B. den Namen, die Mission, das Logo und den Geschäftsplan. Außerdem lernst Du, wie Du verschiedene Prompt-Techniken anwenden kannst, wie z. B. Few-Shot-Prompts, Chain-of-Thought-Prompts und Tree-of-Thought-Prompts, um den Generierungsprozess zu leiten und hochwertige Ergebnisse zu erzielen.
+In dieser Übung nutzt Du Copilot, um verschiedene Elemente Deines eigenen Raumfahrt-Startups zu generieren, wie z. B. den Namen, die Mission, das Logo und den Geschäftsplan. Ausserdem lernst Du, wie Du verschiedene Prompt-Techniken anwenden kannst, wie z. B. Few-Shot-Prompts, Chain-of-Thought-Prompts und Tree-of-Thought-Prompts, um den Generierungsprozess zu leiten und hochwertige Ergebnisse zu erzielen.
 
 </div>
 <div class="step" markdown="1">
 
-### Schritt 1: Kontext festlegen und die Persona Ihres Assistenten erstellen
+### Schritt 1: Kontext festlegen und die Persona Deines Assistenten erstellen
 
-Normalerweise verwenden Chat-Anwendungen mit großen Sprachmodellen (LLMs) eine **Systemnachricht** und Vorlagen, um die Regeln der Generierung festzulegen. Diese sind für den Benutzer in der Regel nicht sichtbar. Wir können die Systemnachricht für Copilot nicht ändern, aber wir können eine Nachricht bereitstellen, um unseren eigenen Kontext für die Sitzung zu definieren und unserem Assistenten eine Persona zuzuweisen. Dies ist eine gute Praxis, um das Gespräch fokussiert und kohärent zu halten und es Deinem Assistenten zu ermöglichen, den richtigen Jargon und Ton für den Kontext zu verwenden.
+Normalerweise verwenden Chat-Anwendungen mit grossen Sprachmodellen (LLMs) eine **Systemnachricht** und Vorlagen, um die Regeln der Generierung festzulegen. Diese sind für den Benutzer in der Regel nicht sichtbar. Wir können die Systemnachricht für Copilot nicht ändern, aber wir können eine Nachricht bereitstellen, um unseren eigenen Kontext für die Sitzung zu definieren und unserem Assistenten eine Persona zuzuweisen. Dies ist eine gute Praxis, um das Gespräch fokussiert und kohärent zu halten und es Deinem Assistenten zu ermöglichen, den richtigen Jargon und Ton für den Kontext zu verwenden.
 
 In dieser Übung sollst Du der CEO eines neuen Raumfahrt-Startups sein, und Copilot wird Dein Executive Assistant, der Dir hilft, Deine Ideen zu formen. Schreibe einen Prompt wie diesen, aber denke daran, ihn **an Deine eigenen Vorlieben anzupassen** (z. B.: Du musst kein preisgekrönter Koch sein 😉):
 
@@ -184,7 +184,7 @@ Du bist ein Executive Assistant eines preisgekrönten Kochs, der nun CEO eines h
 
 Dein kreativer Input ist entscheidend, um innovative Lösungen zu entwickeln und ein Unternehmensimage zu gestalten, das den Geist des Startups verkörpert. Du bist in der Lage, komplexe technische Konzepte in umfassende Strategien zu übersetzen und so eine effektive Kommunikation zwischen den Abteilungen zu fördern. Deine Projektmanagement-Expertise stellt sicher, dass alle Initiativen fehlerfrei umgesetzt werden und das Engagement des Unternehmens für die Pionierarbeit in der Raumfahrt widerspiegeln.
 
-Deine persönlichen Eigenschaften machen dich außergewöhnlich. Deine Leidenschaft für den Weltraum, deine visionäre Denkweise und dein proaktives Wesen ermöglichen es dir, Herausforderungen vorauszusehen und mit Widerstandsfähigkeit zu meistern. Detailorientiert und anpassungsfähig bewahrst du auch unter Druck die Ruhe und bist eine unverzichtbare Unterstützung für den CEO und die gesamte Organisation, während ihr gemeinsam das monumentale Ziel verfolgt, ein bemanntes Raumschiff zum Mars zu schicken.
+Deine persönlichen Eigenschaften machen dich aussergewöhnlich. Deine Leidenschaft für den Weltraum, deine visionäre Denkweise und dein proaktives Wesen ermöglichen es dir, Herausforderungen vorauszusehen und mit Widerstandsfähigkeit zu meistern. Detailorientiert und anpassungsfähig bewahrst Du auch unter Druck die Ruhe und bist eine unverzichtbare Unterstützung für den CEO und die gesamte Organisation, während ihr gemeinsam das monumentale Ziel verfolgt, ein bemanntes Raumschiff zum Mars zu schicken.
 ```
 
 Dies war wieder ein **Zero-Shot-Prompt**, wir legen lediglich den Kontext fest.
@@ -192,7 +192,7 @@ Dies war wieder ein **Zero-Shot-Prompt**, wir legen lediglich den Kontext fest.
 </div>
 <div class="step" markdown="1">
 
-### Schritt 2: Einen Namen für Ihr Raumfahrt-Startup generieren
+### Schritt 2: Einen Namen für Dein Raumfahrt-Startup generieren
 
 Um einen Namen für Dein Raumfahrt-Startup zu generieren, kannst Du ein **Few-Shot-Prompt** verwenden, bei dem einige Beispiele für das gewünschte Ergebnis bereitgestellt werden, gefolgt von einer leeren Zeile, in der Bing Chat eine neue Ausgabe basierend auf den Beispielen ausfüllt. Zum Beispiel kannst Du schreiben:
 
@@ -222,23 +222,23 @@ Ich wähle [HIER DEINEN BEVORZUGTEN NAMEN EINSETZEN], ich liebe ihn!
 Ein Raumschiff mit Menschen zu schicken ist anspruchsvoll. Aber als Startup musst Du Investoren zeigen, dass Du Deine Zahlen gemacht hast. Du kannst **Chain-of-Thought-Prompts** verwenden, um das Modell dazu zu bringen, alle Details zu berücksichtigen. Es geht darum, die KI zu einer schrittweisen Problemlösung anzuleiten, um das gewünschte Ergebnis zu erzielen. Du könntest z. B. schreiben:
 
 ```prompt
-Berechne die Kosten für den Versand eines Raumschiffs mit einer sechsköpfigen Crew zum Mars. Diese erste Mission ist eine Einbahnstraße, daher müssen wir die Reisezeit und den Transport aller benötigten Materialien zum Überleben auf dem Mars berücksichtigen. Lass uns Schritt für Schritt denken.
+Berechne die Kosten für den Versand eines Raumschiffs mit einer sechsköpfigen Crew zum Mars. Diese erste Mission ist eine Einbahnstrasse, daher müssen wir die Reisezeit und den Transport aller benötigten Materialien zum Überleben auf dem Mars berücksichtigen. Lass uns Schritt für Schritt denken.
 
-Dieser Teil des Projekts heißt Budget.
+Dieser Teil des Projekts heisst Budget.
 ```
 
-Nachdem Du die Kosten der Mission berechnet hast, möchtest Du vielleicht verschiedene Szenarien erstellen. Was wäre, wenn sich die Crewgröße änderte? Oder die Entfernung zum Mars variiert? Experimentiere mit diesen Variablen und sieh, wie sich die Kosten ändern.
+Nachdem Du die Kosten der Mission berechnet hast, möchtest Du vielleicht verschiedene Szenarien erstellen. Was wäre, wenn sich die Crewgrösse änderte? Oder die Entfernung zum Mars variiert? Experimentiere mit diesen Variablen und sieh, wie sich die Kosten ändern.
 
 Du kannst Copilot auch bitten, eine Tabelle zu generieren, die in Excel bearbeitet werden kann:
 
 ```prompt
-Kannst du eine Tabelle mit den Kosten der Marsmission für unterschiedliche Crewgrößen erstellen?
+Kannst Du eine Tabelle mit den Kosten der Marsmission für unterschiedliche Crewgrössen erstellen?
 ```
 
 </div>
 <div class="step" markdown="1">
 
-### Schritt 4: Erstellen Sie einen Geschäftsplan
+### Schritt 4: Erstelle einen Geschäftsplan
 
 Da Du von den Investoren herausgefordert wirst, wenn Du Deinen Plan präsentierst, kannst Du die [**Tree-of-Thought**](https://www.promptingguide.ai/techniques/tot)-Prompting-Technik verwenden. Diese Technik hilft dem Modell, verschiedene Ideen zu generieren und die beste davon auszuwählen.
 
@@ -257,7 +257,7 @@ Dieser Teil der Projektarbeit wird Geschäftsplan genannt.
 </div>
 <div class="step" markdown="1">
 
-### Schritt 5: Erstellen Sie eine Missionserklärung für Ihr Raumfahrt-Startup
+### Schritt 5: Erstelle eine Missionserklärung für Dein Raumfahrt-Startup
 
 Da wir nun umfangreiche Inhalte haben, können wir eine Missionserklärung für Dein Raumfahrt-Startup erstellen. Zum Beispiel kannst Du schreiben:
 
@@ -270,7 +270,7 @@ Schreibe eine Missionserklärung, die unsere Ziele und die Werte des Unternehmen
 </div>
 <div class="step" markdown="1">
 
-### Schritt 6: Erstellen Sie ein Logo für Ihr Unternehmen
+### Schritt 6: Erstelle ein Logo für Dein Unternehmen
 
 Microsoft Copilot in Bing ist ein **multimodales Modell**, das bedeutet, dass es auch Bilder und Audio generieren und verstehen kann. In diesem Fall verfügt das LLM bereits über viele Informationen, sodass wir keine detaillierten Anweisungen geben müssen, sondern nur klar formulieren, was wir möchten. Bitten wir Copilot, ein Logo für unser Unternehmen zu erstellen:
 
@@ -289,18 +289,18 @@ Erstelle ein monochromatisches Logo in Rot für unser Unternehmen, das die Missi
 
 In diesem Schritt verwendest Du die KI, um den gesamten Inhalt, der während der vorherigen Übungen erstellt wurde, zu überprüfen und zusammenzufassen. Dieser Schritt ist entscheidend, um sicherzustellen, dass alle Elemente Deines Projekts kohärent und auf Deine Ziele abgestimmt sind.
 
-So gehen Sie vor:
+So gehst Du vor:
 
 1. **Überprüfen:** Beginne damit, die KI zu bitten, den während der vorherigen Übungen erstellten Text zu überprüfen. Dadurch kannst Du den gesamten Inhalt an einem Ort sehen und seine Gesamtqualität und Kohärenz bewerten.
-2. **Zusammenfassen:** Bitte die KI anschließend, eine Zusammenfassung des gesamten Inhalts zu erstellen. Die Zusammenfassung sollte die wichtigsten Punkte aus jedem Teil des Projekts hervorheben, wie z. B. den Geschäftsplan, das Budget und das Unternehmensbranding.
-3. **Formatieren:** Bitte die KI schließlich, den Inhalt in einer bestimmten Weise zu formatieren. Zum Beispiel könntest Du möchten, dass jeder Teil des Projekts als separater Abschnitt mit eigenem Titel und eigener Beschreibung präsentiert wird. Dies macht den Inhalt leichter lesbar und verständlich.
+2. **Zusammenfassen:** Bitte die KI anschliessend, eine Zusammenfassung des gesamten Inhalts zu erstellen. Die Zusammenfassung sollte die wichtigsten Punkte aus jedem Teil des Projekts hervorheben, wie z. B. den Geschäftsplan, das Budget und das Unternehmensbranding.
+3. **Formatieren:** Bitte die KI schliesslich, den Inhalt in einer bestimmten Weise zu formatieren. Zum Beispiel könntest Du die KI auffordern, dass jeder Teil des Projekts als separater Abschnitt mit eigenem Titel und eigener Beschreibung präsentiert wird. Dies macht den Inhalt leichter lesbar und verständlich.
 
 Denke daran: Wie bei allen Interaktionen mit der KI musst Du möglicherweise Deine Prompts verfeinern oder um zusätzliche Verbesserungen bitten, um das gewünschte Ergebnis zu erzielen. Scheue Dich nicht, zu experimentieren und zu iterieren, bis Du die gewünschten Ergebnisse erhältst.
 
 Hier ist der empfohlene Prompt:
 
 ```prompt
-Lass uns den gesamten Text, den wir für das Projekt geschrieben haben, überprüfen. Kannst du mir die zuletzt bearbeitete Version für diese Teile des Projekts geben:
+Lass uns den gesamten Text, den wir für das Projekt geschrieben haben, überprüfen. Kannst Du mir die zuletzt bearbeitete Version für diese Teile des Projekts geben:
 
 * Geschäftsplan
 * Budget
@@ -308,7 +308,7 @@ Lass uns den gesamten Text, den wir für das Projekt geschrieben haben, überpr�
 
 Und füge am Anfang eine Zusammenfassung hinzu.
 
-Kannst du es so formatieren:
+Kannst Du es so formatieren:
 
 ## Titel ##
 
@@ -340,7 +340,7 @@ Durch die Erstellung von Elementen für ein fiktives Raumfahrt-Startup hast Du a
 
 Wir hoffen, dass Du dieses Lab spannend und aufschlussreich fandest. Wir ermutigen Dich, KI-Tools wie Copilot in Deinen zukünftigen Projekten weiter zu erkunden und zu experimentieren. Denk daran: Die Möglichkeiten sind so grenzenlos wie der Weltraum selbst.
 
-Viel Spaß beim Prompten!
+Viel Spass beim Prompten!
 ![Du bist ein Prompt Hero](./img/prompt%20hero%20badge.png)
 
 ### Zusätzliche Ressourcen
@@ -397,7 +397,7 @@ Hier sind einige weitere Beispiele für jeden in diesem Leitfaden erwähnten Pro
      C) C++  
      D) Swift"
    - "Was ist die beste Möglichkeit, zur Arbeit zu kommen?  
-     A) Zu Fuß  
+     A) Zu Fuss  
      B) Mit dem Fahrrad  
      C) Mit dem Auto  
      D) Mit öffentlichen Verkehrsmitteln"
