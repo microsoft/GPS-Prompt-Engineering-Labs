@@ -17,16 +17,17 @@ Von Florian Follonier - Cloud Solution Architect Data & AI - Microsoft
 Willkommen im Prompt-Engineering Hands-on-Lab!
 
 Wir haben diesen Leitfaden entwickelt, um Dir zu helfen, den KI-Begleiter von Microsoft, Copilot, auf praktische und ansprechende Weise zu verstehen und zu nutzen.
-  
-In diesem Lab werden wir die Welt der KI-gestützten Chats erkunden. Wir werden verschiedene Arten von Prompts anwenden und lernen, wie man ein KI-Sprachmodell dazu bringt, verschiedene Aufgaben auszuführen und gewünschten Inhalt zu generieren. Die Übungen sind praxisorientiert, sodass Du durch Ausprobieren und Anwenden Deiner neu gewonnenen Fähigkeiten in Echtzeit lernen kannst.
-  
+
+In diesem Lab werden wir die Welt der KI-gestützten Chats erkunden. Wir werden verschiedene Arten von Prompts anwenden und lernen, wie man ein KI-Sprachmodell dazu bringt, verschiedene Aufgaben auszuführen und gewünschten Inhalt zu generieren. Die Übungen sind praxisorientiert, sodass Du durch Ausprobieren und Anwenden lernst und Dir neue Fähigkeiten aneignest.
+
 Unser Ziel ist es, Dir die Fähigkeiten und das Verständnis zu vermitteln, KI-Tools wie Copilot effektiv in Deinen eigenen Projekten einzusetzen, sei es für geschäftliche, bildungsbezogene oder persönliche Zwecke.
 
 In der ersten Übung lernst Du, wie Copilot funktioniert, indem wir einfache Prompts verwenden. In der zweiten Übung nutzen wir Copilot, um verschiedene Inhalte für ein fiktives Raumfahrt-Startup zu erstellen. Dazu gehört die Generierung eines Firmennamens, die Beschreibung einer Firmenvision, eines Logos und sogar eines Geschäftsplans. Dazu nutzen wir verschiedene Prompt-Techniken.
-  
+
 Am Ende dieses Labs wirst Du ein umfassendes Verständnis dafür haben, wie man KI-Sprachmodelle nutzt und sie instruiert, und wie sie sich als leistungsstarkes Werkzeug in Projekten einsetzen lassen.
-  
+
 Nun lass uns mit der ersten Übung beginnen!
+
 </div>
 </div>
 
@@ -41,12 +42,12 @@ Für diese Übung nutzen wir Microsoft Copilot, Deinen täglichen KI-Begleiter, 
 
 ![Screenshot von Copilot im Web.](./img/Copilot%20in%20desktop.png)
 
-*Wenn du für diese Übung den mobilen Browser nutzt, siehst Du möglicherweise eine andere Benutzeroberfläche und Copilot fordert Dich möglicherweise zur Eingabe von Anmeldedaten auf. Du kannst Dein Microsoft-Konto verwenden, um Dich anzumelden und die Übung fortzusetzen.*
+_Wenn du für diese Übung den mobilen Browser nutzt, siehst Du möglicherweise eine andere Benutzeroberfläche und Copilot fordert Dich möglicherweise zur Eingabe von Anmeldedaten auf. Du kannst Dein Microsoft-Konto verwenden, um Dich anzumelden und die Übung fortzusetzen._
 
 > Während dieses Labs musst Du mehr als die grundlegenden 4 Fragen stellen, die Du mit einem nicht authentifizierten Konto stellen kannst, und mehr als die 10 Fragen, die Du stellen kannst, wenn Du nicht den Edge-Browser verwendest. Um das beste Erlebnis mit diesem Lab zu erzielen, befolge bitte diese Anweisungen:
 >
-> * Falls Du noch kein Konto hast, erstelle ein Microsoft-Konto; jedes Outlook-, Hotmail- oder Live-Konto funktioniert und es ist kostenlos, eines zu erstellen: [Microsoft-Konto \| Melden Sie sich an oder erstellen Sie Ihr Konto noch heute – Microsoft](https://account.microsoft.com/account/CreateAccount). Beachte, dass auch Arbeitskonten mit aktiviertem Microsoft 365 funktionieren.
-> * Installiere den neuesten [Edge-Browser](https://www.microsoft.com/edge/download) und melde Dich mit Deinem Microsoft-Konto an.
+> - Falls Du noch kein Konto hast, erstelle ein Microsoft-Konto; jedes Outlook-, Hotmail- oder Live-Konto funktioniert und es ist kostenlos, eines zu erstellen: [Microsoft-Konto \| Melden Sie sich an oder erstellen Sie Ihr Konto noch heute – Microsoft](https://account.microsoft.com/account/CreateAccount). Beachte, dass auch Arbeitskonten mit aktiviertem Microsoft 365 funktionieren.
+> - Installiere den neuesten [Edge-Browser](https://www.microsoft.com/edge/download) und melde Dich mit Deinem Microsoft-Konto an.
 
 </div>
 <div class="step" markdown="1">
@@ -78,6 +79,7 @@ Der Weltraum ist...
 ```
 
 erhältst Du eine kürzere, prägnantere Antwort.
+
 </div>
 <div class="step" markdown="1">
 
@@ -126,7 +128,7 @@ Das LLM sollte Dir sagen, dass dies ein positives Sentiment darstellt, aber viel
 Gib das Ergebnis im JSON-Format aus.
 ```
 
-Oder Du kannst das LLM herausfordern, seine Antwort zu korrigieren, wenn Du das Gefühl hast, dass sie nicht korrekt ist:
+Oder Du kannst das LLM auffordern, seine Antwort zu korrigieren, wenn Du das Gefühl hast, dass sie nicht korrekt ist:
 
 ```prompt
 Bist Du sicher? Was, wenn das Wort "cool" in diesem Satz faktisch gemeint war?
@@ -146,6 +148,7 @@ In dieser Übung hast Du einige grundlegende Prompting-Begriffe und -Techniken k
 > Denke daran, dass es keinen Ansatz gibt, der für alle passt, wenn es um den Einsatz von KI geht. Experimentiere ruhig mit verschiedenen Arten von Prompts, um zu sehen, welche Ergebnisse Du erhältst. Je mehr Du experimentierst, desto besser wirst Du verstehen, wie Du Copilot effektiv anleiten kannst. Wenn Du weitere Beispiele für jeden Typ von Prompt benötigst, sieh Dir den [Beispielleitfaden](#some-more-example-prompts) am Ende dieses Dokuments an.
 
 Nun gehen wir zur zweiten Übung über, in der Du Dein eigenes Raumfahrt-Startup mit Copilot erstellen. Diese Übung ermöglicht es Dir, mit verschiedenen Prompting-Techniken zu experimentieren und eine Vielzahl von Inhalten für Dein Startup zu erstellen. Los geht's!
+
 </div>
 
 </div>
@@ -166,6 +169,7 @@ Vielleicht hast Du bereits bemerkt, dass Copilot Dir in einer Sitzung bis zu 30 
 Das bedeutet, dass Du nach 30 Iterationen von vorne beginnen musst. Bevor Du also mit der zweiten Übung beginnst, klicke auf die Schaltfläche **Neues Thema**, um eine neue Sitzung zu starten.
 
 In dieser Übung nutzt Du Copilot, um verschiedene Elemente Deines eigenen Raumfahrt-Startups zu generieren, wie z. B. den Namen, die Mission, das Logo und den Geschäftsplan. Außerdem lernst Du, wie Du verschiedene Prompt-Techniken anwenden kannst, wie z. B. Few-Shot-Prompts, Chain-of-Thought-Prompts und Tree-of-Thought-Prompts, um den Generierungsprozess zu leiten und hochwertige Ergebnisse zu erzielen.
+
 </div>
 <div class="step" markdown="1">
 
@@ -193,13 +197,13 @@ Dies war wieder ein **Zero-Shot-Prompt**, wir legen lediglich den Kontext fest.
 Um einen Namen für Dein Raumfahrt-Startup zu generieren, kannst Du ein **Few-Shot-Prompt** verwenden, bei dem einige Beispiele für das gewünschte Ergebnis bereitgestellt werden, gefolgt von einer leeren Zeile, in der Bing Chat eine neue Ausgabe basierend auf den Beispielen ausfüllt. Zum Beispiel kannst Du schreiben:
 
 ```prompt
-Ich suche nach Namensideen für unser Startup, das bemannte Raumschiffe zum Mars baut und entsendet. 
+Ich suche nach Namensideen für unser Startup, das bemannte Raumschiffe zum Mars baut und entsendet.
 Ich möchte, dass die Namen den besonderen Hintergrund unseres CEOs widerspiegeln und eine Zahl enthalten.
 
 Meine Lieblings-Startup-Namen:
 Virgin Galactic, SpaceX, SpaceExplorers
 
-Generiere vier Namen für unser Raumfahrt-Startup: 
+Generiere vier Namen für unser Raumfahrt-Startup:
 ```
 
 Du kannst verschiedene Beispiele ausprobieren oder dem Prompt weitere Details hinzufügen, wie z. B. die Art der Dienstleistung oder des Produkts, das Dein Startup anbietet, um unterschiedliche Ergebnisse zu erzielen.
@@ -314,12 +318,13 @@ Beschreibung
 Und jetzt kannst Du anfangen, Deine Investoren anzurufen, um Dein Projekt vorzustellen!
 
 Denke darüber nach, was Du ihnen zeigen möchtest, und bitte Copilot, es für Dich zu erstellen. Denke daran: Du bist der CEO eines Raumfahrt-Startups, und Du musst zeigen, dass Du bereit bist, abzuheben!
+
 </div>
 
 </div>
 <div class="section" markdown="1">
 
-## Fazit  
+## Fazit
 
 <div class="step" markdown="1">
 
@@ -342,15 +347,15 @@ Viel Spaß beim Prompten!
 
 Wenn Du mehr erfahren möchtest, findest Du hier einige interessante Ressourcen, um Dein Wissen über Prompt-Engineering und KI-Sprachmodelle zu erweitern:
 
-* [Prompting Guide](https://www.promptingguide.ai): Ein umfassender Leitfaden zu Prompt-Techniken für KI-Sprachmodelle.  
-* [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering): Ein Leitfaden zum Prompt-Engineering von den GPT-4-Entwicklern.  
-* [Prompt Engineering Techniques](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering): Tipps und Tricks für Prompts mit dem Azure OpenAI Service.
+- [Prompting Guide](https://www.promptingguide.ai): Ein umfassender Leitfaden zu Prompt-Techniken für KI-Sprachmodelle.
+- [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering): Ein Leitfaden zum Prompt-Engineering von den GPT-4-Entwicklern.
+- [Prompt Engineering Techniques](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering): Tipps und Tricks für Prompts mit dem Azure OpenAI Service.
 
 </div>
 </div>
 <div class="section" markdown="1">
 
-## Glossar  
+## Glossar
 
 <div class="step" markdown="1">
 1. **KI-Begleiter**: Ein künstliches Intelligenzsystem, das Benutzer bei verschiedenen Aufgaben unterstützt.  
@@ -366,57 +371,58 @@ Wenn Du mehr erfahren möchtest, findest Du hier einige interessante Ressourcen,
 11. **Systemnachricht**: Eine Nachricht, die die Regeln für den Generierungsprozess in KI-Chat-Apps festlegt.  
 12. **Vorlagen**: Vordefinierte Formate oder Strukturen, die den Generierungsprozess in KI-Chat-Apps leiten.  
 13. **Kontext**: Die Informationen, die dem Prompt vorausgehen und die Antwort der KI beeinflussen.  
-14. **Sitzung**: Eine Folge von Interaktionen mit dem KI-Modell.  
+14. **Sitzung**: Eine Folge von Interaktionen mit dem KI-Modell.
 
-*Diese Definitionen sind spezifisch für diesen Leitfaden und die Nutzung von Microsofts KI-Begleiter Copilot. Die Definitionen können in anderen Kontexten oder mit verschiedenen KI-Systemen leicht variieren.*  
+_Diese Definitionen sind spezifisch für diesen Leitfaden und die Nutzung von Microsofts KI-Begleiter Copilot. Die Definitionen können in anderen Kontexten oder mit verschiedenen KI-Systemen leicht variieren._
+
 </div>  
 </div>
 <div class="section" markdown="1">
 
-## Einige weitere Beispiel-Prompts  
+## Einige weitere Beispiel-Prompts
 
 <div class="step" markdown="1">
-Hier sind einige weitere Beispiele für jeden in diesem Leitfaden erwähnten Prompt-Typ:  
+Hier sind einige weitere Beispiele für jeden in diesem Leitfaden erwähnten Prompt-Typ:
 
-1. **Seed-Text-Prompt**:  
-   * "Künstliche Intelligenz ist"  
-   * "Die Zukunft der Weltraumforschung liegt in"  
-2. **Bedingter Prompt**:  
-   * "Beschreibe einen Tag im Leben eines Astronauten, der sich auf eine Mission zum Mars vorbereitet."  
-   * "Stelle dir ein Szenario vor, in dem eine KI Präsident eines Landes wird. Schreibe eine Kurzgeschichte basierend darauf."  
-3. **Multiple-Choice-Prompts**:  
-   * "Welche der folgenden Programmiersprachen eignet sich am besten für Data Science?  
+1. **Seed-Text-Prompt**:
+   - "Künstliche Intelligenz ist"
+   - "Die Zukunft der Weltraumforschung liegt in"
+2. **Bedingter Prompt**:
+   - "Beschreibe einen Tag im Leben eines Astronauten, der sich auf eine Mission zum Mars vorbereitet."
+   - "Stelle dir ein Szenario vor, in dem eine KI Präsident eines Landes wird. Schreibe eine Kurzgeschichte basierend darauf."
+3. **Multiple-Choice-Prompts**:
+   - "Welche der folgenden Programmiersprachen eignet sich am besten für Data Science?  
      A) JavaScript  
      B) Python  
      C) C++  
-     D) Swift"  
-   * "Was ist die beste Möglichkeit, zur Arbeit zu kommen?  
+     D) Swift"
+   - "Was ist die beste Möglichkeit, zur Arbeit zu kommen?  
      A) Zu Fuß  
      B) Mit dem Fahrrad  
      C) Mit dem Auto  
-     D) Mit öffentlichen Verkehrsmitteln"  
-4. **Zero-Shot-Prompts**:  
-   * "Übersetze den folgenden Satz ins Französische: 'Der Himmel ist heute klar.'"  
-   * "Löse die folgende Gleichung: 2x + 3 = 9."  
-5. **Few-Shot-Prompts**:  
-   * "Einige mögliche Namen für eine Fitness-App sind:  
-     * FitBuddy  
-     * HealthTrack  
-     * WorkoutPal  
-     Generiere drei Namen für unsere Fitness-App, die sich auf Heimtraining konzentriert:"  
-   * "Hier sind einige Slogans für eine Bäckerei:  
-     * 'Frische, die man schmeckt'  
-     * 'Mit Liebe gebacken'  
-     * 'Ihr tägliches Brot'  
-     Generiere drei Slogans für unsere Bäckerei, die sich auf glutenfreie Produkte spezialisiert:"  
-6. **Chain-of-Thought-Prompting**:  
-   * "Lass uns eine 3-tägige Reise nach New York planen. Beginne damit, die Orte auszuwählen, die wir besuchen wollen, und entscheide dann, in welcher Reihenfolge wir sie besuchen sollten, um Reisezeit zu sparen."  
-   * "Wir müssen eine Überraschungsgeburtstagsfeier für unseren Freund planen. Beginne damit, aufzuschreiben, was wir brauchen, und entscheide dann, in welcher Reihenfolge wir alles organisieren sollten."  
-7. **Tree-of-Thought-Prompting**:  
-   * "Drei unserer besten Köche erstellen ein neues Menü für unser Restaurant. Sie diskutieren über die Hauptgerichte und haben drei verschiedene Ideen. Generiere diese und wähle basierend auf deinem Fachwissen die beste aus."  
-   * "Unser Marketingteam brainstormt Ideen für unsere nächste Werbekampagne. Sie haben drei verschiedene Konzepte. Generiere diese und wähle das beste aus."  
+     D) Mit öffentlichen Verkehrsmitteln"
+4. **Zero-Shot-Prompts**:
+   - "Übersetze den folgenden Satz ins Französische: 'Der Himmel ist heute klar.'"
+   - "Löse die folgende Gleichung: 2x + 3 = 9."
+5. **Few-Shot-Prompts**:
+   - "Einige mögliche Namen für eine Fitness-App sind:
+     - FitBuddy
+     - HealthTrack
+     - WorkoutPal  
+       Generiere drei Namen für unsere Fitness-App, die sich auf Heimtraining konzentriert:"
+   - "Hier sind einige Slogans für eine Bäckerei:
+     - 'Frische, die man schmeckt'
+     - 'Mit Liebe gebacken'
+     - 'Ihr tägliches Brot'  
+       Generiere drei Slogans für unsere Bäckerei, die sich auf glutenfreie Produkte spezialisiert:"
+6. **Chain-of-Thought-Prompting**:
+   - "Lass uns eine 3-tägige Reise nach New York planen. Beginne damit, die Orte auszuwählen, die wir besuchen wollen, und entscheide dann, in welcher Reihenfolge wir sie besuchen sollten, um Reisezeit zu sparen."
+   - "Wir müssen eine Überraschungsgeburtstagsfeier für unseren Freund planen. Beginne damit, aufzuschreiben, was wir brauchen, und entscheide dann, in welcher Reihenfolge wir alles organisieren sollten."
+7. **Tree-of-Thought-Prompting**:
+   - "Drei unserer besten Köche erstellen ein neues Menü für unser Restaurant. Sie diskutieren über die Hauptgerichte und haben drei verschiedene Ideen. Generiere diese und wähle basierend auf deinem Fachwissen die beste aus."
+   - "Unser Marketingteam brainstormt Ideen für unsere nächste Werbekampagne. Sie haben drei verschiedene Konzepte. Generiere diese und wähle das beste aus."
 
-Denke daran, die Prompts auf Deine spezifischen Bedürfnisse und Ziele zuzuschneiden, und scheue Dich nicht, mit verschiedenen Formaten und Stilen zu experimentieren, um die besten Ergebnisse zu erzielen.  
+Denke daran, die Prompts auf Deine spezifischen Bedürfnisse und Ziele zuzuschneiden, und scheue Dich nicht, mit verschiedenen Formaten und Stilen zu experimentieren, um die besten Ergebnisse zu erzielen.
+
 </div>  
 </div>
-
