@@ -158,7 +158,7 @@ Nun gehen wir zur zweiten Übung über, in der Du Dein eigenes Raumfahrt-Startup
 
 <div class="step" markdown="1">
 
-> Während wir in die zweite Übung eintauchen, denke daran, dass dies Deine Gelegenheit ist, kreativ zu werden und zu experimentieren. Probiere verschiedene Prompt-Techniken aus, passe Deine Anweisungen an und sieh, wie Copilot reagiert. Denke daran: Es gibt kein Richtig oder Falsch – das Ziel ist es, zu lernen und Spaß zu haben!
+> Nun beginnen wir mit der zweiten Übung. Denke daran, dass dies Deine Gelegenheit ist, kreativ zu werden und zu experimentieren. Probiere verschiedene Prompt-Techniken aus, passe Deine Anweisungen an und beobachte, wie Copilot reagiert. Denke daran: Es gibt kein Richtig oder Falsch – das Ziel ist es, zu lernen und Spaß zu haben!
 
 ### Copilot-Details
 
@@ -227,7 +227,7 @@ Berechne die Kosten für den Versand eines Raumschiffs mit einer sechsköpfigen 
 Dieser Teil des Projekts heißt Budget.
 ```
 
-Nachdem Du die Kosten der Mission berechnet hast, möchtest Du vielleicht verschiedene Szenarien ausprobieren. Was wäre, wenn sich die Crewgröße änderte? Oder die Entfernung zum Mars variiert? Experimentiere mit diesen Variablen und sieh, wie sich die Kosten ändern.
+Nachdem Du die Kosten der Mission berechnet hast, möchtest Du vielleicht verschiedene Szenarien erstellen. Was wäre, wenn sich die Crewgröße änderte? Oder die Entfernung zum Mars variiert? Experimentiere mit diesen Variablen und sieh, wie sich die Kosten ändern.
 
 Du kannst Copilot auch bitten, eine Tabelle zu generieren, die in Excel bearbeitet werden kann:
 
