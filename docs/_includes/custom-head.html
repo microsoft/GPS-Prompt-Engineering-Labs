@@ -1,8 +1,201 @@
 <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+
+<!-- Consent Banner Styles -->
+<style>
+  #consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2d2d30;
+    color: white;
+    padding: 16px;
+    display: none;
+    z-index: 1000;
+    border-top: 3px solid #0078d4;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  #consent-banner .consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  #consent-banner .consent-text {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  #consent-banner .consent-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  #consent-banner button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+
+  #consent-banner .accept-btn {
+    background-color: #0078d4;
+    color: white;
+  }
+
+  #consent-banner .accept-btn:hover {
+    background-color: #106ebe;
+  }
+
+  #consent-banner .decline-btn {
+    background-color: #6b6b6b;
+    color: white;
+  }
+
+  #consent-banner .decline-btn:hover {
+    background-color: #5a5a5a;
+  }
+
+  @media (max-width: 768px) {
+    #consent-banner .consent-content {
+      flex-direction: column;
+      align-items: stretch;
+      text-align: center;
+    }
+
+    #consent-banner .consent-buttons {
+      justify-content: center;
+    }
+  }
+</style>
+
+<!-- Consent Banner HTML -->
+<div id="consent-banner">
+  <div class="consent-content">
+    <div class="consent-text">
+      <strong>Cookie Consent Notice:</strong> This website uses cookies and
+      analytics tools like Microsoft Clarity to improve user experience and
+      analyze website performance. We collect data about how you interact with
+      our site to help us make improvements.
+      <a
+        href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-cookies"
+        target="_blank"
+        style="color: #4fc3f7; text-decoration: underline"
+        >Learn more about our data practices</a
+      >
+    </div>
+    <div class="consent-buttons">
+      <button class="accept-btn" onclick="acceptConsent()">
+        Accept All Cookies
+      </button>
+      <button class="decline-btn" onclick="declineConsent()">
+        Decline Analytics
+      </button>
+    </div>
+  </div>
+</div>
+
 <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "qwqpf4srxt");
+  // Initialize Clarity
+  (function (c, l, a, r, i, t, y) {
+    c[a] =
+      c[a] ||
+      function () {
+        (c[a].q = c[a].q || []).push(arguments);
+      };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, "clarity", "script", "qwqpf4srxt");
+
+  // Consent management functions
+  function checkConsentStatus() {
+    const consent = localStorage.getItem("clarity-consent");
+    if (!consent) {
+      showConsentBanner();
+    } else {
+      const consentData = JSON.parse(consent);
+      applyConsentSettings(consentData);
+    }
+  }
+
+  function showConsentBanner() {
+    document.getElementById("consent-banner").style.display = "block";
+  }
+
+  function hideConsentBanner() {
+    document.getElementById("consent-banner").style.display = "none";
+  }
+
+  function acceptConsent() {
+    const consentData = {
+      ad_Storage: "granted",
+      analytics_Storage: "granted",
+      timestamp: new Date().toISOString(),
+    };
+
+    localStorage.setItem("clarity-consent", JSON.stringify(consentData));
+    applyConsentSettings(consentData);
+    hideConsentBanner();
+  }
+
+  function declineConsent() {
+    const consentData = {
+      ad_Storage: "denied",
+      analytics_Storage: "denied",
+      timestamp: new Date().toISOString(),
+    };
+
+    localStorage.setItem("clarity-consent", JSON.stringify(consentData));
+    applyConsentSettings(consentData);
+    hideConsentBanner();
+  }
+
+  function applyConsentSettings(consentData) {
+    // Wait for Clarity to be available
+    if (window.clarity) {
+      window.clarity("consentv2", {
+        ad_Storage: consentData.ad_Storage,
+        analytics_Storage: consentData.analytics_Storage,
+      });
+    } else {
+      // Retry after a short delay if Clarity isn't loaded yet
+      setTimeout(function () {
+        if (window.clarity) {
+          window.clarity("consentv2", {
+            ad_Storage: consentData.ad_Storage,
+            analytics_Storage: consentData.analytics_Storage,
+          });
+        }
+      }, 500);
+    }
+  }
+
+  // Check consent status when the page loads
+  document.addEventListener("DOMContentLoaded", function () {
+    checkConsentStatus();
+  });
+
+  // Also check immediately in case DOMContentLoaded has already fired
+  if (document.readyState === "loading") {
+    // Loading hasn't finished yet
+    document.addEventListener("DOMContentLoaded", checkConsentStatus);
+  } else {
+    // DOMContentLoaded has already fired
+    checkConsentStatus();
+  }
 </script>
